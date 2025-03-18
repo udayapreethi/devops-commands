@@ -76,7 +76,15 @@
 39. `git cherry-pick [commit-id]` – Apply a specific commit from one branch to another  
 40. `git bisect` – Find which commit introduced a bug  
 41. `git reflog` – Show a log of all Git references  
-42. `git worktree` – Manage multiple working trees  
+42. `git worktree` – Manage multiple working treesClear and Reset GitHub Credentials
+
+cmdkey /delete:git:https://github.com
+git remote set-url origin https://github.com/udayapreethi/devops-commands.git
+git push
+
+
+
+43.  
 
 ---
 
