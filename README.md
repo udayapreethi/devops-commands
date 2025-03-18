@@ -71,11 +71,12 @@
 ---
 
 ### **Advanced Git Commands**
-37. `git stash` – Stash current changes temporarily  
-38. `git cherry-pick [commit-id]` – Apply a specific commit from one branch to another  
-39. `git bisect` – Find which commit introduced a bug  
-40. `git reflog` – Show a log of all Git references  
-41. `git worktree` – Manage multiple working trees  
+37. `git stash` – Stash current changes temporarily
+38.  Cherry pick: from particular branch,if we need to the copy data from a specific commit to a another branch.
+39. `git cherry-pick [commit-id]` – Apply a specific commit from one branch to another  
+40. `git bisect` – Find which commit introduced a bug  
+41. `git reflog` – Show a log of all Git references  
+42. `git worktree` – Manage multiple working trees  
 
 ---
 
