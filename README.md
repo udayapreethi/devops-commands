@@ -27,7 +27,8 @@
 12. `git fetch` – Fetch changes from a remote repository  
 13. `git pull` – Pull latest changes from a remote repository  
 14. `git push` – Push changes to a remote repository  
-15. `git push origin [branchname]` – Push a branch to GitHub  
+15. `git push origin [branchname]` OR   " git push --set-upstream origin [newbranchname]" – Push a new branch which is not available in the
+ github.   
 
 ---
 
