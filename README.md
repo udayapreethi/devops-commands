@@ -11,7 +11,7 @@
 ### **Working with Files & Commits**
 5. `git status` – Check the status of the working directory  
 6. `git add [file]` / `git add .` – Add specific files or all changes to staging  
-7. `git commit -m "message"` – Commit staged changes with a message  
+7. `git commit -m "message"` – Commit staged changes with a messag  
 
 ---
 
