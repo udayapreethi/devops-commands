@@ -10,7 +10,22 @@ git push origin main = to push the data to the remote (this command is applied t
 ✅ Push All Local Branches
 'git push --all origin' =
  Pushes all local branches to the remote repository.
-git fetch
+git fetch (Download Changes Without Merging)
+✅Downloads new commits, branches, and tags from the remote repository.
+✅Does not automatically merge the changes into your local branch.
+✅Used to check for updates without modifying your working directory.
+📌 git pull (Fetch + Merge)
+Downloads and automatically merges changes into your current branch.
+✅Equivalent to running git fetch followed by git merge.
+	
+       Fetches Remote Changes 	Merges into Local Branch	  Affects Working Directory?
+       	
+git fetch	✅ Yes               	❌ No                     	❌ No
+git pull 	✅ Yes               	✅ Yes                     	✅ Yes
+
+
+ 
+
 
 
 
