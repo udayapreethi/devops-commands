@@ -10,6 +10,7 @@ git push origin main = to push the data to the remote (this command is applied t
 ✅ Push All Local Branches
 'git push --all origin' =
  Pushes all local branches to the remote repository.
+git fetch
 
 
 
