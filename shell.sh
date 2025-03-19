@@ -1,2 +1,2 @@
-mkdir shellscripts
+mkdir shellscripts & touch python
 touch command
