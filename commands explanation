@@ -1,0 +1,17 @@
+git init = to instal a repository in the local 
+git clone = to copy the data from the github to local
+git add [file] or git add . = to add the file in working area or to add files in the working area
+git commit -m 'message' = to add data in to the staging area
+✅ Push Changes to GitHub (Default Branch)
+git push origin main = to push the data to the remote (this command is applied to the main branch only.)
+✅ Push a New Branch to GitHub
+'git push -u origin new-branch' =
+(The -u (or --set-upstream) sets the remote tracking branch, so future pushes can be done with just git push.)
+✅ Push All Local Branches
+'git push --all origin' =
+ Pushes all local branches to the remote repository.
+
+
+
+
+
