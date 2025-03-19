@@ -18,8 +18,8 @@
 ### **Branching & Merging**
 8. `git branch` – List all branches  
 9. `git checkout [branch-name]` – Switch to another branch  
-10. `git merge [branch-name]` – Merge a branch into the current branch  
-
+10. `git merge [branch-name]` – Merge a branch into the current branch
+11. git checkout --orphan new-branch - Create a New Branch Without Main Branch History
 ---
 
 ### **Remote Repository Management**
