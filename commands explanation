@@ -1,3 +1,86 @@
+File and Directory Management
+
+ls – Lists files and directories in the current location.
+cd /path/to/directory – Changes the working directory.
+pwd – Prints the current working directory.
+mkdir new_folder – Creates a new directory.
+rmdir empty_folder – Removes an empty directory.
+rm file.txt – Deletes a file.
+rm -r folder – Deletes a folder and its contents.
+cp file1.txt file2.txt – Copies a file.
+cp -r dir1 dir2 – Copies a directory recursively.
+mv old_name new_name – Moves or renames a file or directory.
+df -- to check disk space
+du -- to check the disk space usage
+free -- to check memory size
+File Viewing and Editing
+
+cat file.txt – Displays file content.
+tac file.txt – Displays file content in reverse order.
+less file.txt – Opens a file for viewing with scrolling support.
+more file.txt – Similar to less, but only moves forward.
+head -n 10 file.txt – Displays the first 10 lines of a file.
+tail -n 10 file.txt – Displays the last 10 lines of a file.
+nano file.txt – Opens a simple text editor.
+vi file.txt – Opens a powerful text editor.
+echo 'Hello' > file.txt – Writes text to a file, overwriting existing content.
+echo 'Hello' >> file.txt – Appends text to a file without overwriting.
+
+Viewing Processes
+
+ps(processes status)
+ps aux or ps – View all running processes. displays the detailed list of all running processes on the system.
+
+a - shows process for all users,not just the current user
+u -displays process user or owner alng with detailed info
+x - prcess that are not attatched to a terminal 
+
+Ps command presents the snapshot of the every process running including system services and prcesses without a terminal.
+user- user or wner of the process
+PID-process id
+%CPU-CPU usage
+%MEM- memory used by process
+VSZ- virtual memory size
+RSS-physical memory size used
+STAT- process status
+START-start time
+TIME-CPU time consumed
+command-command that is used by process
+
+
+ps -u username – View processes for a specific user
+ps -C processname – Show a process by name
+pgrep processname – Find a process by name and return its PID
+pidof processname – Find the PID of a running program
+
+Managing Processes
+
+kill PID – Terminate a process by PID
+pkill processname – Terminate a process by name
+kill -9 PID – Force kill a process
+pkill -9 processname – Kill all instances of a process
+kill -STOP PID – Stop a running process
+kill -CONT PID – Resume a stopped process
+
+
+
+Monitoring System Processes
+
+top – Interactive process viewer. Real time tool which provides a live view of running processes and systm resource usage. shows an interactive list of running process updates evey few seconds.
+provides option to send signals of processes eg to kill or stop them directly from the interface.
+
+htop – User-friendly process viewer (requires installation)
+nice -n 10 command – Run a command with a specific priority
+renice -n -5 -p PID – Change priority of an existing process
+
+Daemon Process Management
+
+systemctl list-units --type=service – List all system daemons
+systemctl start service-name – Start a daemon/service
+systemctl stop service-name – Stop a daemon/service
+systemctl enable service-name – Enable a service at startup
+
+
 git init = to instal a repository in the local 
 git clone = to copy the data from the github to local
 git add [file] or git add . = to add the file in working area or to add files in the working area
@@ -25,6 +108,7 @@ git pull 	✅ Yes               	✅ Yes                     	✅ Yes
 
 
  
+
 
 
 
